@@ -1,0 +1,115 @@
+body{
+background-color: #3090C7;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.primeiroDiv{
+  background: url(imagens/pic2.jpg)
+  no-repeat center center;
+  background-size: 100%100%;
+   min-height: 30rem;
+} 
+ 
+nav {
+
+  width: 100%;
+  height: 60px;
+  background-color: darkblue;
+  line-height: 60px;
+}
+
+nav ul{
+float: right;
+margin: 0;
+margin-right: 1.9rem;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+}
+
+nav ul li a{
+text-decoration: none;
+color: #fff;
+padding: 20px;
+}
+
+img{
+width: 14%;
+margin-left: 1.9rem;
+margin-top: -4%;
+}
+
+nav ul li:hover{
+  background-color: coral;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.section {
+width: 80%;
+margin: auto;
+overflow: hidden;
+margin-top: 4%;
+}
+
+.section h1{
+  color:white;
+  line-height: 60px;
+  text-align: center;
+  }
+
+
+.btn-1{
+  background-color: orangered;
+  padding:0.7rem 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.features{
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.features button{
+padding: 0.7rem 2rem;
+margin-right: 2rem;
+font-size: 1.2rem;
+opacity: 0.7;
+}
+
+showcase h1{
+margin-top: 5%;
+margin-bottom: 5%;
+text-align: center;
+}
+
+#cursos{
+display:flex;
+text-align: center;
+}
+
+#cursos img{
+  width: 0;
+  padding: 120px 120px;
+  margin: 10px;
+  border-radius:5px;
+  border: 2px solid #000;
+}
+
+
+footer{
+background-color: #333;
+color: #fff;
+text-align: center;
+padding:1.2rem;
+margin-top:4%;
+}
+
+
+/*background-image: url("imagens/Cambrigde1.PNG");
+background-size: 100%100%;*/
